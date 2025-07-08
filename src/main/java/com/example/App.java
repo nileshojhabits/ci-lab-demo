@@ -1,18 +1,13 @@
 // CI trigger test
 
 
-
 package com.example;
-
-
 
 public class App {
 
     public static void main(String[] args) {
-
-        System.out.println("Hello from Jenkins CI!");
-
+        // Old message removed
+        System.out.println("Continuous Integration test - build should trigger automatically.");
     }
 
 }
-
